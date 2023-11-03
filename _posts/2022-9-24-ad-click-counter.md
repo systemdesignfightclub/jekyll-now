@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Rate Limiter
+title: Ad Click Counter
 ---
-
 
 
 ## Video

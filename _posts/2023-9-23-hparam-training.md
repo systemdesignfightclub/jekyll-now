@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hyperparamter Training & Tuning
+title: Hyperparameter Training & Tuning
 video_id: yq2GC-4j8jA
 url_slug: hparam-training
 video_date: 2023-9-23

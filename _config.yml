@@ -5,6 +5,8 @@
 # Name of your site (displayed in the header)
 name: System Design Fight Club
 
+title: System Design Fight Club
+
 # Short bio or description (displayed in the header)
 description: Over 50 System Design Interview Question Solutions
 
@@ -23,13 +25,18 @@ footer-links:
   flickr:
   github: systemdesignfightclub/SDFC
   instagram:
-  linkedin: # company/sdfc-system-design-fight-club
+  linkedin: company/sdfc-system-design-fight-club
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: # jekyllrb
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: channel/UC5_QAB65IbajYkL6hzoY-gg
+  youtube: >
+      @SDFC
   googleplus: # anything in your profile username that comes after plus.google.com/
+
+# channel/UC5_QAB65IbajYkL6hzoY-gg
+
+
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts

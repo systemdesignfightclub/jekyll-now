@@ -8,11 +8,20 @@ layout: default
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
+      <img src="https://img.youtube.com/vi/{{ post.video_id }}/hqdefault.jpg" alt="{{ post.alt_text }}" height="250">
+
+
+
+    {% comment %}
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    {% endcomment %}
+
+
+
     </article>
   {% endfor %}
 </div>

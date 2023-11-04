@@ -18,8 +18,11 @@
     <nav class="sidebar-nav">
 
 
-      {% assign pages_list = site.posts %}
-      {% for node in pages_list %}
+      <!-- https://stackoverflow.com/questions/22405225/how-to-make-list-order-ascending-with-jekyll-and-liquid -->
+      <!-- https://github.com/jekyll/jekyll/issues/9275 -->
+      <!-- https://jekyllrb.com/docs/collections/#custom-sorting-of-documents -->
+      {% assign pages_list = site.posts | sort: 'date' %}
+      {% for node in pages_list reversed %}
         {% if node.title != null %}
           {% if node.layout == "post" %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
